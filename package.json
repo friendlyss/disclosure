@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,6 +9,10 @@
   ],
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendlyss/disclosure"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -31,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "friendlyss-disclosure",
+  "name": "@friendlyss/disclosure",
   "author": "Math W.",
   "module": "dist/friendlyss-disclosure.esm.js",
   "size-limit": [
