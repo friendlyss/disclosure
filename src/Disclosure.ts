@@ -1,5 +1,5 @@
 import { TypedEmitter } from 'tiny-typed-emitter'
-import { Type as DisclosureTypes } from '@friendlyss/disclosure'
+import { Type as DisclosureTypes } from '@friendlyss/disclosure/types'
 
 type DisclosureNames = keyof DisclosureTypes
 

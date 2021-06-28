@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Disclosure from './Disclosure'
-import { Type as DisclosureTypes } from '@friendlyss/disclosure'
+import { Type as DisclosureTypes } from '@friendlyss/disclosure/types'
 
 type DisclosureNames = keyof DisclosureTypes
 
